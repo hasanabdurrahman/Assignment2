@@ -1,4 +1,4 @@
-# Assigment2
+# Assignment2
 
 Preparation Install in Terminal
 -npm init -y
