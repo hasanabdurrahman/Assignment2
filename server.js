@@ -18,6 +18,7 @@ const secretKey = 'ass2'; // Ganti dengan secret key yang aman
 function authenticateToken(req, res, next) {
   let token = req.header('Authorization');
   token = token.replace('Bearer ','');
+  console.log(token);
   if (!token) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
